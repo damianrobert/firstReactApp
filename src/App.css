@@ -1,0 +1,132 @@
+.h1{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .headerContainer{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 18px;
+    background: hsl(10, 79%, 65%);
+    border-radius: 10px;
+  }
+
+  .balance p{
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .balance span{
+    font-size: 23px;
+  }
+
+
+  .appContainer{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: hsl(33, 100%, 98%);
+    padding: 18px;
+    border-radius: 10px;
+    height: auto;
+  }
+
+  .headSection{
+    margin-bottom: 15px;
+  }
+
+  .headSection span{
+    color: hsl(25, 47%, 15%);
+  }
+
+  .mainSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: auto;
+  }
+
+  .chartBody{
+    width: 35px;
+    height: 50px;
+    background: hsl(10, 43%, 51%);
+    border-radius: 5px;
+    padding: 3px;
+    position: relative;
+  }
+
+  .days{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .days span{
+    width: 35px;
+    color: hsla(29, 54%, 22%, 0.721);
+    text-align: center;
+  }
+
+  #wed{
+    height: 150px;
+  }
+
+  #mon{
+    height: 70px;
+  }
+
+  #thu{
+    height: 100px;
+  }
+
+  #fri{
+    height: 120px;
+  }
+
+  #sun{
+    height: 110px;
+  }
+
+  .footSection{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid darkgray;
+    margin-top: 25px;
+    padding: 18px 10px;
+  }
+
+  
+
+  .total p{
+    color: hsl(25, 47%, 15%);
+    margin-top: 0;
+    font-weight: light;
+    font-size: 14px;
+  }
+
+  .total span{
+    color: hsl(25, 47%, 15%);
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+
+  .lastMonth span{
+    color: hsl(25, 47%, 15%);
+    padding-left: 55px;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  .lastMonth p{
+    color: hsl(25, 47%, 15%);
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .lastMonth{
+    padding-top: 30px;
+  }
